@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TasteEat</title>
+    <link rel="stylesheet" href="/tasteeat/css/button.css">
+    <link rel="stylesheet" href="/tasteeat/css/style.css">
+    <link rel="stylesheet" href="/tasteeat/js/slick/slick.css">
+    <link rel="stylesheet" href="/tasteeat/js/slick/slick-theme.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body class="page">
+    <header class="header">
+        <div class="container">
+            <div class="container-header">
+                <div class="upper_header">
+                    <a href="tel:+123456789">
+                        <button id="btn-call" type="tel">Call - 123 456 789</button>
+                    </a>
+                    <img src="/tasteeat/images/logo.png" alt="logo">
+                    <a href="#">
+                        <button id="btn-reserve" type="button">Reservation</button>
+                    </a>
+                </div>
+                <div class="menu-line">
+                    <div class="menu">
+                        <div class="menu-links">
+                            <a href="#" id="active">Home</a>
+                            <a href="#">About Us</a>
+                            <a href="#">Our Menu</a>
+                            <a href="#">Pages</a>
+                            <a href="#">Blog</a>
+                            <a href="#">Contact Us</a>
+                        </div>
+                        <div class="menu-social">
+                            <img src="/tasteeat/images/in.png" alt="" width="24px" height="23px">
+                            <img src="/tasteeat/images/fb.png" alt="" width="24px" height="23px">
+                            <img src="/tasteeat/images/tw.png" alt="" width="24px" height="23px">
+                            <img src="/tasteeat/images/pr.png" alt="" width="24px" height="23px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <section class="container-welcome">
+            <div class="container-welcome-text">
+                <h1>Welcome to Restaurant</h1>
+                <p>The people, food and the prime locations make the perfect place good friends & family to come together and have great time.</p>
+                <a href="#caption">
+                    <button id="welcome-btn" type="button">View Menu</button>
+                </a>
+            </div>
+            <div class="container-welcome-img">
+                <img id="welcome-img" src="/tasteeat/images/welcome.png" alt="">
+            </div>
+        </section>
+        <section class="container-info">
+            <div class="inner-info">
+                <div class="inner-info-block">
+                    <div class="info-image">
+                        <img src="/tasteeat/images/locate.png" alt="" width="52px" height="52px">
+                    </div>
+                    <div class="info-text">
+                        <h3>Locate Us</h3>
+                        <p>Riverside 25, San Diego, California</p>
+                    </div>
+                </div>
+                <div class="inner-info-block">
+                    <div class="info-image">
+                        <img id="info-hours" src="/tasteeat/images/reserve.png" alt="" width="44px" height="44px">
+                    </div>
+                    <div class="info-text">
+                        <h3>Open Hours</h3>
+                        <p>Mon To Fri 9:00 AM - 9:00 PM</p>
+                    </div>
+                </div>
+                <div class="inner-info-block">
+                    <div class="info-image">
+                        <img id="info-reverse" src="/tasteeat/images/hours.png" alt="" width="39px" height="39px">
+                    </div>
+                    <div class="info-text">
+                        <h3>Reservation</h3>
+                        <p>restaurantate@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="rest-story">
+            <div class="inner-story">
+                <div class="story-img">
+                    <img src="/tasteeat/images/rest.png" alt="" width="743px" height="519px">
+                </div>
+                <div class="story-text">
+                    <div>
+                        <h1>The Delicious Story</h1>
+                        <p>The people, food and the prime locations make the perfect place for the friends & family to come together and have great time.</p>
+                    </div>
+                    <div class="story-inner-text">
+                        <div id="inner-text">
+                            <h1>2018</h1>
+                            <p>Plan for this restaurant to deliver healthy food.</p>
+                        </div>
+                        <div>
+                            <h1>2022</h1>
+                            <p>Happily in the fourth year by fulfill the motto.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <p id="mark-josefine">JOSEFINE</p>
+                        <img src="/tasteeat/images/josefine.png" alt="" width="198px" height="107px">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="rest-menu">
+            <div class="inner-menu">
+                <div class="left-sidebar">
+                    <div class="left-sidebar-text">
+                        <span id="caption">MENU</span>
+                        <h1>Try Our Special Dishes</h1>
+                        <p>Every time you perfectly dine with us, it should happy for great inspired food in an environment designed with individual touches unique to the local area.</p>
+                    </div>
+                    <div>
+                        <img src="/tasteeat/images/spec.png" alt="" width="398px" height="548px">
+                    </div>
+                    <div>
+                        <button id="welcome-btn" type="button">See all dishes</button>
+                    </div>
+                </div>
+                <div class="right-sidebar">
+                    <div>
+                        <h2>Starters</h2>
+                        <div class="menu-item">
+                            <img src="/tasteeat/images/image1.png" alt="" width="84px" height="84px">
+                            <div class="description">
+                                <div class="text">
+                                    <h3>Raw Scallops from Erquy</h3>
+                                    <p>Shuck the scallop to that used for oysters</p>
+                                </div>
+                                <div class="line"></div>
+                                <div class="price">$40</div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="/tasteeat/images/image2.png" alt="" width="84px" height="84px">
+                            <div class="description">
+                                <div class="text">
+                                    <h3>Spring Roll</h3>
+                                    <p>Add oil to a hot pan spring onion whites</p>
+                                </div>
+                                <div class="line"></div>
+                                <div class="price">$20</div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="/tasteeat/images/image3.png" alt="" width="84px" height="84px">
+                            <div class="description">
+                                <div class="text">
+                                    <h3>French Onion Soup</h3>
+                                    <p>Wheat flour, apple cider vinegar, bread</p>
+                                </div>
+                                <div class="line"></div>
+                                <div class="price">$25</div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="/tasteeat/images/image4.png" alt="" width="84px" height="84px">
+                            <div class="description">
+                                <div class="text">
+                                    <h3>Tomato Bruschetta</h3>
+                                    <p>Bread, olive oil, garlic, black pepper</p>
+                                </div>
+                                <div class="line"></div>
+                                <div class="price">$30</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h2>Main Dish</h2>
+                        <div class="menu-item">
+                            <img src="/tasteeat/images/image5.png" alt="" width="84px" height="84px">
+                            <div class="description">
+                                <div class="text">
+                                    <h3>Grilled Salmon with Dill Sauce</h3>
+                                    <p>Brown sugar, salmon fillet, Dijon mustard</p>
+                                </div>
+                                <div class="line"></div>
+                                <div class="price">$40</div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="/tasteeat/images/image6.png" alt="" width="84px" height="84px">
+                            <div class="description">
+                                <div class="text">
+                                    <h3>Roast Beef with Vegetable</h3>
+                                    <p>Green beans, rib eye, olive oil, beef</p>
+                                </div>
+                                <div class="line"></div>
+                                <div class="price">$20</div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="/tasteeat/images/image7.png" alt="" width="84px" height="84px">
+                            <div class="description">
+                                <div class="text">
+                                    <h3>Marrkesh Vegetetarian Curruy</h3>
+                                    <p>Sweet potato, eggplant, garbanzo bean</p>
+                                </div>
+                                <div class="line"></div>
+                                <div class="price">$25</div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="/tasteeat/images/image8.png" alt="" width="84px" height="84px">
+                            <div class="description">
+                                <div class="text">
+                                    <h3>Spicy Vegan Potato Curry</h3>
+                                    <p>Coconut milk, beans, potatoes, curry powder</p>
+                                </div>
+                                <div class="line"></div>
+                                <div class="price">$35</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h2>Dessert</h2>
+                        <div class="menu-item">
+                            <img src="/tasteeat/images/image9.png" alt="" width="84px" height="84px">
+                            <div class="description">
+                                <div class="text">
+                                    <h3>Apple Pie with Cream</h3>
+                                    <p>Whipping cream, egg white, cinnamon</p>
+                                </div>
+                                <div class="line"></div>
+                                <div class="price">$15</div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="/tasteeat/images/image10.png" alt="" width="84px" height="84px">
+                            <div class="description">
+                                <div class="text">
+                                    <h3>Lemon Meringue Pie</h3>
+                                    <p>Frozen pie crust, meringue, lemon</p>
+                                </div>
+                                <div class="line"></div>
+                                <div class="price">$30</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="review">
+            <div class="inner-review">
+                <div class="inner-review-text">
+                    <span id="caption">TESTIMONIAL</span>
+                    <div class="title">
+                        <h1>Our Clients Say</h1>
+                        <p>We love to hear from customers, so please leave a comment or say hello in an email.</p>
+                    </div>
+                </div>
+                <div class="inner-review-container">
+                    <div class="review-item">
+                        <div class="title">
+                            <div>
+                                <img id="quotes" src="/tasteeat/images/Frame.png" alt="">
+                                <img id="photo" src="/tasteeat/images/natasha.png" alt="">
+                            </div>
+                            <div>
+                                <h2>Natasha D</h2>
+                                <p>Newyork</p>
+                            </div>
+                        </div>
+                        <div class="comment">
+                            <span>They known for its fabulous taste and food. Anywhere you go your hunger is satisfied. The best chicken & burgers those are yummy.</span>
+                        </div>
+                    </div>
+                    <div class="review-item">
+                        <div class="title">
+                            <div>
+                                <img id="quotes" src="/tasteeat/images/Frame.png" alt="">
+                                <img id="photo" src="/tasteeat/images/jack.png" alt="">
+                            </div>
+                            <div>
+                                <h2>Jack Sparrow</h2>
+                                <p>Salt Lake City</p>
+                            </div>
+                        </div>
+                        <div class="comment">
+                            <span>I have visited this fantastic restaurant on several occasions, food is absolutely outstanding & attention to detail is in league of its own.</span>
+                        </div>
+                    </div>
+                    <div class="review-item">
+                        <div class="title">
+                            <div>
+                                <img id="quotes" src="/tasteeat/images/Frame.png" alt="">
+                                <img id="photo" src="/tasteeat/images/martin.png" alt="">
+                            </div>
+                            <div>
+                                <h2>Martin</h2>
+                                <p>San Diego</p>
+                            </div>
+                        </div>
+                        <div class="comment">
+                            <span>Perfectly known for its fabulous taste and food. Anywhere your hunger is satisfied. They give best fried chicken and burgers those are yummy.</span>
+                        </div>
+                    </div>
+                    <div class="review-item">
+                        <div class="title">
+                            <div>
+                                <img id="quotes" src="/tasteeat/images/Frame.png" alt="">
+                                <img id="photo" src="/tasteeat/images/gregory.png" alt="" width="113px" height="113px">
+                            </div>
+                            <div>
+                                <h2>Gregory V.</h2>
+                                <p>Gomel</p>
+                            </div>
+                        </div>
+                        <div class="comment">
+                            <span>I'm a Spider-Man.</span>
+                        </div>
+                    </div>
+                    <div class="review-item">
+                        <div class="title">
+                            <div>
+                                <img id="quotes" src="/tasteeat/images/Frame.png" alt="">
+                                <img id="photo" src="/tasteeat/images/grib.png" alt="" width="113px" height="113px">
+                            </div>
+                            <div>
+                                <h2>Artem G.</h2>
+                                <p>St. Dorogi</p>
+                            </div>
+                        </div>
+                        <div class="comment">
+                            <span>I'm a man.</span>
+                        </div>
+                    </div>
+                    <div class="review-item">
+                        <div class="title">
+                            <div>
+                                <img id="quotes" src="/tasteeat/images/Frame.png" alt="">
+                                <img id="photo" src="/tasteeat/images/smolen.png" alt="" width="113px" height="113px">
+                            </div>
+                            <div>
+                                <h2>Euheni S.</h2>
+                                <p>Borisov</p>
+                            </div>
+                        </div>
+                        <div class="comment">
+                            <span>I'm a professional Counter-Strike player.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div><img style="display: block;" src="/tasteeat/images/svet.png" alt=""></div>
+        <section class="offer">
+            <div class="inner-offer">
+                <div class="offer-title">
+                    <span id="caption">OFFERS</span>
+                    <h1>Our Offer Dishes</h1>
+                    <p>Our chefs create melt-in-your-mouth dishes that'll satiate even the fussiest eaters now</p>
+                    <p>the dishes are in offers use it based on hunger.</p>
+                </div>
+                <div class="offer-cards">
+                    <div class="offer-item">
+                        <div class="offer-card">
+                            <div class="item-info">
+                                <div>
+                                    <img src="/tasteeat/images/sale-white.png" alt="">
+                                </div>
+                                <div>
+                                    <span id="caption">50% OFFER GOING</span>
+                                    <h1>Chicken Burger</h1>
+                                    <p>Chicken burger with the tasty toppings and leaves.</p>
+                                </div>
+                            </div>
+                            <div class="item-image">
+                                <img src="/tasteeat/images/burger.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offer-item">
+                        <div class="offer-card">
+                            <div class="item-info">
+                                <div>
+                                    <img src="/tasteeat/images/sale-black.png" alt="">
+                                </div>
+                                <div>
+                                    <span id="caption">50% OFFER GOING</span>
+                                    <h1>Chicken Pizza</h1>
+                                    <p>Pizza with multiple flavor and the toping are mixed.</p>
+                                </div>
+                            </div>
+                            <div class="item-image">
+                                <img src="/tasteeat/images/picca.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+
+    </footer>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="/tasteeat/js/slick/slick.min.js"></script>
+    <script src="/tasteeat/js/main.js"></script>
+</body>
+</html>

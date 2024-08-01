@@ -1,0 +1,515 @@
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, p, img, body {
+    padding: 0;
+    margin: 0;
+}
+
+.page {
+    background-color: #bbbbbf;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #292E36;
+}
+
+.container-header {
+    padding: 50px 40px 0px 40px;
+}
+
+.upper_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.menu-line {
+    border-top: 2px solid #5C6168;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Josefin Sans";
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.menu-links a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    margin-right: 60px;
+    color: #fff;
+}
+
+.menu-links, #active {
+    color: #E1B168;
+}
+
+.menu-social img{
+    margin-left: 20px;
+}
+
+.container-welcome {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px;
+    padding-top: 40px;
+}
+
+.container-welcome-text {
+    margin-top: auto;
+    margin-bottom: auto;
+    max-width: 655px;
+}
+
+.container-welcome-text h1 {
+    font-family: "Cormorant Infant";
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 110px;
+    letter-spacing: 0.2px;
+    color: #fff;
+    padding-bottom: 25px;
+}
+
+.container-welcome-text p {
+    font-family: "Josefin Sans";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #fff;
+    text-align: justify;
+}
+.container-welcome-img {
+    width: 600px;
+    height: 744.80px;
+}
+
+#welcome-img {
+    border: 3px solid #fff;
+    border-radius: 25px;
+}
+
+.inner-info {
+    background-color: #FFF8F5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.inner-info-block {
+    display: flex;
+    align-items: center;
+}
+
+.info-image {
+    position: relative;
+    width: 83px;
+    height: 83px;
+    background-color: #292E36;
+    border-radius: 100px;
+    align-items: center;
+}
+
+.inner-info-block img {
+    position: absolute;
+    top: 15px;
+    left: 16px;
+}
+
+.info-text {
+    margin-left: 20px;
+}
+
+.inner-info h3 {
+    font-family: "Cormorant Infant";
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    letter-spacing: 0.2px;
+    color: #292E36;
+    margin: 0;
+}
+
+.inner-info p {
+    font-family: "Josefin Sans";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #555555;
+}
+
+.info-image #info-hours {
+    top: 17px;
+    left: 20px;
+}
+
+.info-image #info-reverse {
+    top: 20px;
+    left: 22px;
+}
+
+.rest-story {
+    background-color: #FFF8F5;
+}
+
+.inner-story {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 40px 100px 40px;
+}
+
+.story-img {
+    padding-right: 45px;
+}
+
+.story-text {
+    text-align: justify;
+}
+
+.story-inner-text {
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.rest-story h1 {
+    font-family: "Cormorant Infant";
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+    color: #292E36;
+    padding-bottom: 15px;
+}
+
+.rest-story p {
+    font-family: "Josefin Sans";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #555555;
+}
+
+#inner-text {
+    padding-right: 24px;
+}
+
+#mark-josefine {
+    padding-bottom: 20px;
+}
+
+.rest-menu {
+    background-color: #fff;
+    padding: 120px 40px 140px 40px;
+}
+
+.inner-menu {
+    display: flex;
+}
+
+.left-sidebar {
+    max-width: 491px;
+    padding-right: 15px;
+    text-align: justify;
+    margin-right: 50px;
+}
+
+.inner-menu h1,h2,h3 {
+    font-family: "Cormorant Infant";
+}
+
+.inner-menu p {
+    font-family: "Josefin Sans";
+}
+
+.left-sidebar-text h1 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+}
+
+.left-sidebar-text p {
+    padding-bottom: 45px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+}
+
+.right-sidebar {
+    margin-top: 40px;
+    width: 815px;
+}
+
+.right-sidebar h2 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 50.4px;
+    letter-spacing: 0.2px;
+    color: #292E36;
+    padding-bottom: 20px;
+}
+
+.right-sidebar h3 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 42px;
+    letter-spacing: 0.2px;
+    margin: 0;
+    color: #292E36;
+}
+
+.right-sidebar p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #555555;
+}
+
+.right-sidebar .menu-item {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    margin-bottom: 50px;
+}
+
+.right-sidebar .menu-item img {
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 84px;
+    height: 84px;
+}
+
+.right-sidebar .menu-item .description {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.right-sidebar .menu-item .text {
+    margin-right: 20px;
+}
+
+.right-sidebar .menu-item .price {
+    font-family: "Cormorant Infant";
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 42px;
+    letter-spacing: 0.2px;
+    color: #292E36;
+    white-space: nowrap;
+}
+
+.right-sidebar .menu-item .line {
+    border-bottom: 1px solid #AAAAAA;
+    flex-grow: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 40px;
+}
+
+.inner-review {
+    padding: 140px 40px 120px 40px;
+}
+
+.inner-review h1 {
+    font-family: "Cormorant Infant";
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+    color: #fff;
+}
+
+.inner-review p {
+    font-family: "Josefin Sans";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #fff;
+}
+
+.inner-review-text .title {
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+.inner-review-text .title p {
+    padding-top: 8px;
+}
+
+.inner-review-container {
+    margin-top: 20px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.review-item {
+    margin: 40px 30px 0 0;
+    background-color: #343942;
+    padding: 0 40px;
+}
+
+.review-item:last-child {
+    margin-right: 0px;
+}
+
+.review-item .title {
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #797E89;
+}
+
+.review-item .title h2 {
+    font-family: "Cormorant Infant";
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 42px;
+    letter-spacing: 0.2px;
+    color: #fff;
+}
+
+.review-item .title p {
+    color: #E1B168;
+}
+
+.review-item .title #quotes {
+    position: absolute;
+    z-index: 1;
+}
+
+.review-item .title #photo {
+    position: relative;
+    margin-right: 30px;
+}
+
+.review-item .comment {
+    margin-top: 32px;
+    font-family: "Cormorant Infant";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 37.5px;
+    letter-spacing: 0.25px;
+    text-align: justify;
+    color: #fff;
+}
+
+.offer {
+    background-color: #fff;
+    padding: 140px 40px 120px 40px;
+}
+
+.offer-title {
+    align-items: center;
+    text-align: center;
+}
+
+.inner-offer h1 {
+    font-family: "Cormorant Infant";
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+    color: #555555;
+}
+
+.inner-offer p {
+    font-family: "Josefin Sans";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #555555;
+}
+
+.inner-offer {
+    display: flex;
+    flex-direction: column;
+}
+
+.offer-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.offer-card {
+    display: flex;
+    align-items: center;
+}
+
+.offer-item {
+    background: url(/tasteeat/images/bg-offer.png);
+    width: 665px;
+    height: 409px;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.item-info {
+    max-width: 278px;
+}
+
+
+.item-info img {
+    padding-bottom: 42px;
+}
+
+.offer-item:last-child {
+    background: url(/tasteeat/images/bg-offer2.png);
+}
+
+
+
+
+
+#caption {
+    padding: 4px 0;
+    width: 60px;
+    font-family: "Josefin Sans";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22.5px;
+    letter-spacing: 3px;
+    border-top: 2px solid #E1B168;
+    border-bottom: 2px solid #E1B168;
+}
+
+.inner-review #caption {
+    color: #fff;
+}
+
+.inner-offer #caption {
+    color: #555555;
+}
+
+.inner-offer .item-info #caption {
+    border-top: 2px solid #292E36;
+    border-bottom: 2px solid #292E36;
+}
