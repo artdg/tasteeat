@@ -7,6 +7,11 @@ h1, h2, p, img, body {
     margin: 0;
 }
 
+body {
+    width: 100%;
+    height: 100vh;
+}
+
 .page {
     background-color: #bbbbbf;
 }
@@ -330,7 +335,7 @@ h1, h2, p, img, body {
 }
 
 .inner-review {
-    padding: 140px 40px 120px 40px;
+    padding: 140px 40px 60px 40px;
 }
 
 .inner-review h1 {
@@ -384,7 +389,7 @@ h1, h2, p, img, body {
     border-bottom: 1px solid #797E89;
 }
 
-.review-item .title h2 {
+.review-item h2, .title h2 {
     font-family: "Cormorant Infant";
     font-weight: 400;
     font-size: 30px;
@@ -393,7 +398,7 @@ h1, h2, p, img, body {
     color: #fff;
 }
 
-.review-item .title p {
+.review-item p, .title p {
     color: #E1B168;
 }
 
@@ -428,7 +433,7 @@ h1, h2, p, img, body {
     text-align: center;
 }
 
-.inner-offer h1 {
+.inner-offer h1, .inner-dishes h1 {
     font-family: "Cormorant Infant";
     font-weight: 400;
     font-size: 40px;
@@ -437,7 +442,7 @@ h1, h2, p, img, body {
     color: #555555;
 }
 
-.inner-offer p {
+.inner-offer p, .inner-dishes p {
     font-family: "Josefin Sans";
     font-weight: 400;
     font-size: 20px;
@@ -476,14 +481,111 @@ h1, h2, p, img, body {
     max-width: 278px;
 }
 
+.sale img {
+    position: relative;
+}
 
-.item-info img {
-    padding-bottom: 42px;
+.sale p {
+    position: relative;
+    top: -65px;
+    right: -30px;
 }
 
 .offer-item:last-child {
     background: url(/tasteeat/images/bg-offer2.png);
 }
+
+.popular-dishes {
+    padding: 60px 40px 140px 40px;
+    background-color: #fff;
+}
+
+.dishes-cards {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 65px;
+}
+
+.card-item {
+    max-width: 318px;
+}
+
+.card-item p {
+    margin-top: 15px;
+}
+
+.card-item h2 {
+    font-family: "Cormorant Infant";
+    font-weight: 400;
+    line-height: 42px;
+    font-size: 30px;
+    color: #292E36;
+}
+
+.card-title {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #DCDCDC;
+}
+
+.inner-services {
+    padding: 140px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 254px;
+    min-height: 235px;
+    border: 20px solid #323841;
+    margin-right: 30px;
+    align-items: center;
+}
+
+.services-card:last-child {
+    margin-right: 0;
+}
+
+.services-card p {
+    margin-top: 15px;
+    font-family: "Cormorant Infant";
+    font-size: 25px;
+    line-height: 35px;
+    color: #fff;
+}
+
+.services-title {
+    margin-right: 100px;
+}
+
+.services-title h1 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-family: "Cormorant Infant";
+    font-size: 40px;
+    line-height: 56px;
+    color: #fff;
+}
+
+.services-title p {
+    font-family: "Josefin Sans";
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -512,4 +614,8 @@ h1, h2, p, img, body {
 .inner-offer .item-info #caption {
     border-top: 2px solid #292E36;
     border-bottom: 2px solid #292E36;
+}
+
+.services-title #caption {
+    color: #fff;
 }

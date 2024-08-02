@@ -50,6 +50,16 @@
     transition: background-color 0.5s, color 0.5s;
 }
 
+.inner-dishes .dishes-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dishes-btn #welcome-btn {
+    margin-top: 0;
+}
+
 .left-sidebar #welcome-btn {
     margin-top: 60px;
 }
