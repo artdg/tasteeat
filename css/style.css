@@ -398,7 +398,11 @@ body {
     color: #fff;
 }
 
-.review-item p, .title p {
+.title p {
+    color: #fff;
+}
+
+.review-item p {
     color: #E1B168;
 }
 
