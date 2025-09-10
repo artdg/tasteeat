@@ -1,4 +1,5 @@
-#btn-call {
+.btn-call {
+    padding-top: 15px;
     width: 295px;
     height: 73px;
     border: 2px solid #E1B168;
@@ -11,6 +12,7 @@
     text-align: center;
     color: #fff;
     cursor: pointer;
+    text-decoration: none;
 }
 
 #btn-reserve {

@@ -1,3 +1,11 @@
+:root {
+  --color-dark: #292E36;
+  --color-light: #fff;
+  --color-accent: #E1B168;
+  --color-bg: #FFF8F5;
+  --color-text: #555555;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -83,7 +91,7 @@ p {
     color: #fff;
 }
 
-.menu-links, #active {
+.menu-links, .active {
     color: #E1B168;
 }
 
